@@ -2,6 +2,19 @@
 <html>
 <head>
     <title>LMS Login</title>
+    <style>
+        .course-container {
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+        }
+        .course {
+            padding: 5px;
+        }
+        .course img {
+            width: 250px;
+        }
+    </style>
 </head>
 
 <body>
@@ -34,10 +47,56 @@
     </select>
 
 <h2>Enrolled Courses</h2>
-<div class="course-tile">
-    <div class="course-tile">
-        <img src="course1.jpg" alt="ENSF 381 - Web Developer" width="500" height="450">
+<hr>
+<div class="course-container">
+    <div class="course">
+        <img src="course1.jpg" alt="ENSF 381 - Web Developer">
+        <p>Course Name: Web Development</p>
+        <p>Course Code: ENSF381</p>
+        <a href="attempt_quiz.html">Attempt Quiz</a>
     </div>
-
+    <div class="course">
+        <img src="course1.jpg" alt="ENSF 381 - Web Developer">
+        <p>Course Name: Web Development</p>
+        <p>Course Code: ENSF381</p>
+        <a href="attempt_quiz.html">Attempt Quiz</a>
+    </div>
+    <div class="course">
+        <img src="course1.jpg" alt="ENSF 381 - Web Developer">
+        <p>Course Name: Web Development</p>
+        <p>Course Code: ENSF381</p>
+        <a href="attempt_quiz.html">Attempt Quiz</a>
+    </div>
+    <div class="course">
+        <img src="course1.jpg" alt="ENSF 381 - Web Developer">
+        <p>Course Name: Web Development</p>
+        <p>Course Code: ENSF381</p>
+        <a href="attempt_quiz.html">Attempt Quiz</a>
+    </div>
+    <div class="course">
+        <img src="course1.jpg" alt="ENSF 381 - Web Developer">
+        <p>Course Name: Web Development</p>
+        <p>Course Code: ENSF381</p>
+        <a href="attempt_quiz.html">Attempt Quiz</a>
+    </div>
+</div>
+<br>
+<h2>Pending Invitations</h2>
+<hr>
+<div class="course-container">
+    <div class="course">
+        <img src="course2.jpg" alt="ENSF 381 - Web Developer">
+        <p>Course Name: Web Development</p>
+        <p>Course Code: ENSF381</p>
+        <button style="background-color: rgb(91, 197, 91);">Accept</button>
+        <button style="background-color: rgb(228, 102, 102);">Reject</button>
+    </div>
+    <div class="course">
+        <img src="course2.jpg" alt="ENSF 381 - Web Developer">
+        <p>Course Name: Web Development</p>
+        <p>Course Code: ENSF381</p>
+        <button style="background-color: rgb(91, 197, 91);">Accept</button>
+        <button style="background-color: rgb(228, 102, 102);">Reject</button>
+    </div>
 </div>
 </main>
